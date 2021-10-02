@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -7,6 +9,7 @@ body {
   margin: 0px;
   color: #333;
   --type-first: Helvetica, Arial, sans-serif;
+  --type-second: 'Spectral', Georgia;
   font-family: var(--type-first);
 }
 
@@ -15,7 +18,7 @@ h2,
 h3,
 h4,
 p {
-  margin: opx;
+  margin: 0px;
 }
 
 ul,
@@ -48,15 +51,16 @@ a {
   padding: 0 1rem;
   margin: 0 auto;
 }
+
 .mainContainer {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .title {
   font-family: var(--type-second);
   line-height: 1;
   font-size: 3rem;
-  margin: 1rem;
+  margin: 1rem 0;
   position: relative;
   z-index: 1;
 }
@@ -85,4 +89,18 @@ a {
     opacity: 1;
     transform: initial;
   }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh + 10rem);
+}
+
+.AppBody {
+  flex: 1;
+}
+
+.VictoryContainer {
+  height: initial !important;
 }
