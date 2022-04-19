@@ -16,9 +16,9 @@
 .input:focus,
 .input:hover {
   outline: none;
-  border-color: #fb1;
+  border-color: #14b8a6;
   background: white;
-  box-shadow: 0 0 0 3px #fea;
+  box-shadow: 0 0 0 3px #5eead4;
 }
 
 .label {
